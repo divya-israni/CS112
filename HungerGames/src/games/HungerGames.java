@@ -49,7 +49,7 @@ public class HungerGames {
      */
     public void setupDistricts (String filename) {
 
-        //did not check for an empty file
+        //no empty files
         int numDis = StdIn.readInt();
         for(int i=0; i<numDis; i++){
             District addDistrict = new District(StdIn.readInt());
@@ -69,7 +69,7 @@ public class HungerGames {
      */
     public void setupPeople (String filename) {
         
-        //did not check for an empty file
+        //no empty files
         int numPeople = StdIn.readInt();
         for(int i=0; i<numPeople; i++){
             String firstName = StdIn.readString();
