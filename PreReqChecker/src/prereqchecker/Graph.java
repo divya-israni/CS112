@@ -1,28 +1,8 @@
 package prereqchecker;
 import java.util.LinkedList;
-//import java.io.*;
 import java.util.*;
-//import java.util.LinkedHashMap;
 
 public class Graph {
- /*   private int vertices;
-    private LinkedList <String> adjList[];
-
-    public Graph(int vertices){
-        this.vertices = vertices;
-        adjList = new LinkedList[vertices];
-        for(int i=0; i<vertices; i++){
-            adjList[i] = new LinkedList<>();
-        }
-    }
-
-    public void setValue(int index, String s){
-       // adjList[index].add(s);
-    }
-
-    public void addEdge(int to, String from){
-        adjList[to].add(from);
-    }*/
 
     private Map<String, LinkedList<String>> adjList;
     private ArrayList<String> check;
